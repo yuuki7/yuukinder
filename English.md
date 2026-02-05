@@ -57,3 +57,33 @@ the United States ⭕️
 The Johns Hopkins University ⭕️
 
 Wikipediaを見ないとわからない。
+
+### aかanかは自分がどう読んでいるかで決まる
+
+I'm a F2P player. ⭕️
+<br>
+I'm an F2P player. ⭕️
+
+「フリートゥープレイ」と読むならa、「エフトゥーピー」と読むならanを使う。
+
+### その他
+
+aを強調するときは「エイ」と読む。
+
+強調
+<br>
+a < one < a single
+
+I ate an apple.
+<br>
+I ate one apple.
+<br>
+I ate a single apple.
+
+No one likes me.
+<br>
+(誰も私を好きではない)
+
+Not a single person likes me.
+<br>
+(誰一人私を好きではない)
