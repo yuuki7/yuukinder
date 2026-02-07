@@ -1,1 +1,5 @@
-english
+## "the"
+
+### Headlinese
+
+Omit "the."
