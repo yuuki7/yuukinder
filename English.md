@@ -2,4 +2,4 @@
 
 ### Headlinese
 
-Omit "the" and "a/an" in headlines, titles, source code comments, and commit messages.
+Omit "the", "a", and "an" in headlines, titles, source code comments, and commit messages.
