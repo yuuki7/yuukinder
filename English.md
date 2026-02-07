@@ -1,5 +1,5 @@
-## the
+## _the_
 
 ### Headlinese
 
-Omit "the", "a", and "an" in headlines, titles, source code comments, and commit messages.
+Omit _the_, _a_, and _an_ in headlines, titles, source code comments, and commit messages.
