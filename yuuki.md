@@ -15,6 +15,8 @@ yuuki was born on May 17, 1994, in Ninohe, Iwate, Japan, and raised in Esashi, I
 
 yuuki began using a computer at age 4 and became interested in kanji. He began using the Internet at 9 and learned HTML.[^2] In 2005, he dropped out of elementary school in fifth grade.
 
+At 13, he learned Python and GNU/Linux. At 16, he learned mathematics, logic, and shogi.
+
 ## References
 
 - yuuki (2005). _[Internet Security Laboratory](https://web.archive.org/web/20050311192522/http://www.geocities.jp/xxwnt853/top.html)_.
