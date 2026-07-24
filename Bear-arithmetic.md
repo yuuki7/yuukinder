@@ -8,6 +8,20 @@ We can represent a number $n$ as a collection of $n$ bears.
 🧸🧸🧸
 ```
 
+## Numbers
+
+You don't have to use bears; you can also use dogs. A number means how many there are, ignoring differences.
+
+```
+🐶🐶🐶
+```
+
+### Order
+
+Numbers have an order: $1 < 2 < 3$.
+
+But which one is "first": 🧸, 🐶, or 🐻‍❄️? Animals don't have an inherent order. We can define an order, though, for example by size.
+
 ## Even and odd numbers
 
 An even number can be divided into two equal parts; an odd number cannot, leaving a remainder of 1.
