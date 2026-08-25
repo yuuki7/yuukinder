@@ -1,11 +1,3 @@
-- [[Math in anime]]
+- [[Bear arithmetic]]
 - [[Math formulas]]
-
-<!-- -->
-
-- [[Counting bears]]
-- [[Moving bears]]
-
-<!-- -->
-
-- [[Are 111, 1111, and 11111 prime?]]
+- [[Next prime after 11 is 1111111111111111111]]
