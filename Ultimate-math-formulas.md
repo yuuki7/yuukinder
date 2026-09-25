@@ -34,6 +34,62 @@ $`\log_a(M^n) = n \log_a M`$
 
 $`\log_a M = \displaystyle \frac{\log_b M}{\log_b a}`$
 
+## Fractions
+
+$`\displaystyle \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}`$
+
+$`\displaystyle \frac{a}{b} + \frac{c}{d} + \frac{e}{f} = \frac{adf + bcf + bde}{bdf}`$
+
+## Systems of linear equations
+
+$`
+\begin{cases}
+ax + by = e \\
+cx + dy = f
+\end{cases} \iff \begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix} \begin{pmatrix}
+x \\
+y
+\end{pmatrix} = \begin{pmatrix}
+e \\
+f
+\end{pmatrix}
+`$
+
+$`
+x = \displaystyle \frac{ed - bf}{ad - bc} = \frac{\begin{vmatrix}
+e & b \\
+f & d
+\end{vmatrix}}{\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix}}
+`$
+
+$`
+y = \displaystyle \frac{af - ec}{ad - bc} = \frac{\begin{vmatrix}
+a & e \\
+c & f
+\end{vmatrix}}{\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix}}
+`$
+
+## Sequences
+
+$`\displaystyle \sum_{k = 1}^n k = 1 + 2 + \cdots + n = \frac{n(n + 1)}{2}`$
+
+$`\displaystyle \sum_{k = 1}^n \bigl( a + (k - 1)d \bigr) = a + (a + d) + \cdots + \bigl( a + (n - 1)d \bigr) = \frac{n \bigl( 2a + (n - 1)d \bigr)}{2}`$
+
+$`\displaystyle \sum_{k = 1}^n ar^{k - 1} = a + ar + \cdots + ar^{n - 1} = \frac{a(1 - r^n)}{1 - r}`$
+
+## Derivatives
+
+$`(x^n)' = nx^{n - 1}`$
+
 ## Trigonometric identities
 
 $`\sin^2 \theta + \cos^2 \theta = 1`$ (Pythagorean identity)
