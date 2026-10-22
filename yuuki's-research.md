@@ -88,3 +88,60 @@ with initial conditions $`a_1 = 5`$, $`a_2 = 61`$, and $`a_3 = 488`$.
 | 4 | 4,651 | 456,976 |
 | 5 | 41,006 | 11,881,376 |
 | 6 | 373,930 | 308,915,776 |
+
+## Planes with perspective
+
+<img src="https://github.com/user-attachments/assets/d1cb0492-afd6-4d54-b0da-ab61ca5ddc18" alt="A human and a bot are touching each other; the distance between the centers of their bases is 50 at y = 0, but only 30 at y = 200." width="270" height="480">
+
+When you are at $`(0, 0)`$, the bot touches you when it is at $`(50, 0)`$, a distance of 50.
+
+However, when you are at $`(0, 200)`$, the bot touches you when it is at $`(30, 200)`$, a distance of only 30.
+
+What is the formula to find the bot's position $`(x', y')`$ from your position $`(x, y)`$ so that the bot follows you?
+
+<details>
+<summary>Answer</summary>
+
+When $`y = 0`$:
+
+$`x' = x + 50`$
+
+When $`y = 200`$:
+
+$`x' = x + 30`$
+
+We see that $`x'`$ depends on $`y`$. Let $`x' = x + f(y)`$. Assume $`f(y) = ay + b`$. Then:
+
+$`
+\left\{ \begin{alignedat}{3}
+& f(0)   &&= b        &&= 50 \\
+& f(200) &&= 200a + b &&= 30
+\end{alignedat} \right.
+`$
+
+Therefore, $`f(y) = -\frac{y}{10} + 50`$. The answer is the two-dimensional affine transformation:
+
+$`
+\left\{ \begin{alignedat}{2}
+& x' &&= x - \frac{y}{10} + 50 \\
+& y' &&= y
+\end{alignedat} \right.
+`$
+
+$`
+\iff \begin{pmatrix}
+x' \\
+y'
+\end{pmatrix} = \begin{pmatrix}
+1 & -\frac{1}{10} \\
+0 & 1
+\end{pmatrix} \begin{pmatrix}
+x \\
+y
+\end{pmatrix} + \begin{pmatrix}
+50 \\
+0
+\end{pmatrix}
+`$
+
+</details>
